@@ -1,0 +1,5 @@
+注意:
+    1. fanout模式，作用是将收到的所有消息广播到它知道的所有队列中 (public.subscribe)
+    2. direct模式，有选择行的广播，通过routingKey匹配 (routing)
+    3. topic模式，基于多个标准进行路由。它必须是由点分隔的单词列表如: stock.usd.* (topics)
+*（星号）可以替代一个单; ＃（hash）可以替换零个或多个单词。
